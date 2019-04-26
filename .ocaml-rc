@@ -2,3 +2,10 @@
 # OPAM configuration
 . "$HOME"/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
+alias opl="opam pin list"
+alias opa="opam pin add"
+alias oi="opam install"
+
+alias om=omake
+alias omc="omake clean"
+alias omm="omake .merlin"
